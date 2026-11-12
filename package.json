@@ -1,0 +1,35 @@
+{
+  "name": "gdg-dsu-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "node --env-file-if-exists=.env.local scripts/prepare-site.mjs && npm run check && vite build && vite build --config vite.analytics.config.ts",
+    "validate": "node scripts/validate.mjs && node scripts/validate-component-sources.mjs",
+    "cms:upload": "node --env-file-if-exists=.env.local scripts/cms-upload.mjs",
+    "cms:dry-run": "node scripts/cms-upload.mjs --dry-run",
+    "cms:publish": "node --env-file-if-exists=.env.local scripts/publish-cms.mjs",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@remotion/player": "4.0.543",
+    "@supabase/supabase-js": "^2.119.0",
+    "cheerio": "^1.2.0",
+    "pg": "^8.23.1",
+    "posthog-js": "^1.447.15",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.543"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "4.7.0",
+    "typescript": "5.9.3",
+    "vite": "6.4.6"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

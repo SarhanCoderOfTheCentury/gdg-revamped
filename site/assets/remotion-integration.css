@@ -1,0 +1,47 @@
+/* Layout boundaries only. Approved component geometry and scoped styles come
+   directly from the supplied ZIP and are left unchanged. */
+#about .about-original-layout{display:grid;grid-template-columns:minmax(0,.76fr) minmax(0,1.24fr);gap:40px;align-items:center}
+#about .about-original-copy{min-width:0;max-width:none}
+.community-component-column{width:100%;min-width:0;align-self:center}
+.remotion-mount{width:100%;min-width:0;height:auto;container-type:inline-size}
+.remotion-mount .community-motion,.remotion-mount .discord-community{width:100%;min-width:0}
+.component-placeholder{display:grid;place-items:center;aspect-ratio:1120/660;width:100%;border:1px solid #e7ecf4;border-radius:18px;background:#fff}
+[data-remotion-component=discord] .component-placeholder{aspect-ratio:1120/680}
+.component-loading{margin:0;padding:24px;color:#75849a;font-size:13px;line-height:1.6;text-align:center;font-family:"Google Sans",Arial,sans-serif}
+.discord-original-layout{width:100%;max-width:1280px;margin:0 auto;position:relative;z-index:1;padding:0 20px}
+.discord-component-column{width:100%;max-width:1120px;min-width:0;margin:34px auto 0}
+.discord-original-layout>div:first-child{padding:0 20px}
+#discord-section{padding-bottom:72px}
+#partners{position:relative;isolation:isolate;margin:0;padding-bottom:72px}
+#gallery{position:relative;margin-top:0!important;padding-top:80px;content-visibility:visible;contain-intrinsic-size:none}
+[data-ambient-visible=false] [class*=animate-],[data-ambient-visible=false] .animate-partners-ticker{animation-play-state:paused!important}
+/* The scene wrappers own their internal h2, image and icon sizing. */
+.remotion-mount svg{flex-shrink:0}
+.remotion-mount .dc-brand-tile img{height:auto;max-width:none}
+@container(max-width:619px){
+ .component-placeholder{aspect-ratio:600/840}
+ [data-remotion-component=discord] .component-placeholder{aspect-ratio:600/1040}
+}
+@media(max-width:1199px){
+ #about .about-original-layout{display:flex;flex-direction:column;gap:32px}
+ #about .about-original-copy{width:100%;max-width:800px;align-self:flex-start}
+ .community-component-column{max-width:1000px;margin:0 auto}
+}
+@media(max-width:640px){
+ #about .about-original-layout{gap:24px}
+ #about{padding-inline:16px}
+ #about .about-original-copy h2{font-size:40px;line-height:1.15}
+ .discord-original-layout{padding:0 12px}
+ .discord-original-layout>div:first-child{padding:0 8px}
+ .discord-component-column{margin-top:22px}
+ #discord-section{padding-top:64px;padding-bottom:48px}
+ #partners{padding-top:32px;padding-bottom:48px}
+ #gallery{padding-top:64px}
+}
+@media(prefers-reduced-motion:reduce){
+ [data-ambient-section] [class*=animate-]{animation:none!important}
+}
+
+#gallery a.gallery-redirect-button{position:relative;z-index:5;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 26px;margin-top:24px;border-radius:999px;background:#0f172a!important;color:#fff!important;-webkit-text-fill-color:#fff;opacity:1!important;visibility:visible!important;font-size:15px;font-weight:600;line-height:1.5;text-decoration:none;box-shadow:0 8px 24px #0f172a20}#gallery a.gallery-redirect-button:hover{background:#1e293b!important}#gallery a.gallery-redirect-button:focus-visible{outline:3px solid #4285f4;outline-offset:4px}
+
+#gallery a.gallery-redirect-button{pointer-events:auto!important}

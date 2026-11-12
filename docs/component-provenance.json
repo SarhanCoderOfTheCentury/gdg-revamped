@@ -1,0 +1,54 @@
+{
+  "source": "User-supplied gdg-remotion-components.zip",
+  "approved_source_commit": "bad352246a53a69d4e6c10abc7522d0b93d72273",
+  "files": [
+    {
+      "path": "src/components/community/CommunityMotion.tsx",
+      "sha256": "05b6d4a9b2530f91efd2f1994c91c10c2c1dda3ce2f159d4fbff459d5b1dd205"
+    },
+    {
+      "path": "src/components/community/CommunityScene.tsx",
+      "sha256": "76d5fe1233b79c508de34f1a2f220bafa3a156e6a5a367e461a3a0e1e1aef72a"
+    },
+    {
+      "path": "src/components/community/DiscordCommunity.tsx",
+      "sha256": "03e202bf6c3b6cbd2ab1cba30277e77cc7cd43dcd23ba05872e5f80d684adeb3"
+    },
+    {
+      "path": "src/components/community/DiscordScene.tsx",
+      "sha256": "19be42d0ff569190d33e500c729b63a39bb265098dad68de2c32af3280a51f09"
+    },
+    {
+      "path": "src/components/community/Icon.tsx",
+      "sha256": "0f9607fe02f07ef92d8e04677882bd38f2cf335c19bed64be4b3af6c92f20ab6"
+    },
+    {
+      "path": "src/components/community/community-motion.css",
+      "sha256": "72d895b6f55485cd4ed23b295be1e33af5b6a6dfb6e10c38913d98a7f3e2d84f"
+    },
+    {
+      "path": "src/components/community/discord-community.css",
+      "sha256": "db5be9d302663afef98deeb88b7959fb7590c314915008d0a65619a4964c3834"
+    },
+    {
+      "path": "src/components/community/discord-data.ts",
+      "sha256": "c471eafa7e05109315ee671b96c28f83e0c1c44da23f82658584e56bbe90e323"
+    },
+    {
+      "path": "src/components/community/interaction-model.ts",
+      "sha256": "83d4abb75ffe791193b2c675869138472724cb51e5a8d428e6451938ee83f961"
+    },
+    {
+      "path": "dist/assets/community-sculpture.webp",
+      "sha256": "829ee379fccf41ec06205201c2b654965ac63626a6193e767f2332969a6d51a7"
+    },
+    {
+      "path": "dist/assets/discord-symbol.svg",
+      "sha256": "eb3bf5a2e8b9f9aa39c1b1d38aeaa7c2997084567634c55f4141aa39cf426cec"
+    },
+    {
+      "path": "dist/assets/google-sans-latin.woff2",
+      "sha256": "df4ccb79a78e07ce44367a5ebcc7487bc58dd33b88a0c2a7e7db2735f4d6803e"
+    }
+  ]
+}

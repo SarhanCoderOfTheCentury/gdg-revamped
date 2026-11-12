@@ -1,0 +1,9 @@
+@font-face{font-family:"Google Sans";font-style:italic;font-weight:400;font-display:swap;src:url("/assets/google-sans-italic-400.woff") format("woff")}
+@font-face{font-family:"Google Sans";font-style:italic;font-weight:500;font-display:swap;src:url("/assets/google-sans-italic-500.woff") format("woff")}
+@font-face{font-family:"Google Sans";font-style:italic;font-weight:600;font-display:swap;src:url("/assets/google-sans-italic-600.woff") format("woff")}
+@font-face{font-family:"Google Sans";font-style:italic;font-weight:700;font-display:swap;src:url("/assets/google-sans-italic-700.woff") format("woff")}
+@font-face{font-family:"Google Sans";font-style:normal;font-weight:400;font-display:swap;src:url("/assets/google-sans-normal-400.woff") format("woff")}
+@font-face{font-family:"Google Sans";font-style:normal;font-weight:500;font-display:swap;src:url("/assets/google-sans-normal-500.woff") format("woff")}
+@font-face{font-family:"Google Sans";font-style:normal;font-weight:600;font-display:swap;src:url("/assets/google-sans-normal-600.woff") format("woff")}
+@font-face{font-family:"Google Sans";font-style:normal;font-weight:700;font-display:swap;src:url("/assets/google-sans-normal-700.woff") format("woff")}
+:root{--font-sans:"Google Sans",Arial,sans-serif;--font-mono:"Google Sans",Arial,sans-serif;--font-geist-sans:"Google Sans",Arial,sans-serif;--font-geist-mono:"Google Sans",Arial,sans-serif;--default-font-family:"Google Sans",Arial,sans-serif;--default-mono-font-family:"Google Sans",Arial,sans-serif}html,body,button,input,select,textarea{font-family:"Google Sans",Arial,sans-serif}
